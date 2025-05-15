@@ -5,8 +5,7 @@ FROM alpine:latest
 LABEL maintainer="seu-nome@exemplo.com"
 
 # Comando básico para o build mostrar algo
-RUN echo "Build realizado com sucesso no Alpine!"
+RUN echo "Build realizado com sucesso no chuchu!"
 
 # Comando padrão ao iniciar o container
 CMD ["echo", "Container rodando com sucesso!"]
-###
